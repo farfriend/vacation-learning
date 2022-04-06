@@ -1,0 +1,8 @@
+已解决，我装的最新版(21年年中的)anaconda自带的jupyter notebook也出现了这个问题，原因是pyzmq版本太高了
+第一步，打开anaconda prompt，输入 pip install pyzmq==19.0.2即可。
+如果装完后会跳出红字error:pip's dependency...提示需要pyqt5和pyqtengine并不大于5.13版本
+继续输入pip install PyQt5==5.12 -i https://pypi.douban.com/simple
+装完后装pip install pytengine==5.2 -i https://pypi.douban.com/simple
+上学期搞得东西 这学期再搞看看也不是那么难
+恐源无知
+用 anconda 的 jupyter，打开后他不会自动弹出写代码的页面，它就是有提示，它就是找到那个文件夹打开就行了。
